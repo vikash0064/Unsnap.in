@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Allow: /
+Sitemap: http://unsnap.ct.ws/sitemap.xml
