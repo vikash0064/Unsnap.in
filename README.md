@@ -1,4 +1,4 @@
-# 📸 Unsnap – AI-Enhanced Image Upload and Sharing Platform
+  # 📸 Unsnap – AI-Enhanced Image Upload and Sharing Platform
 
 [Live Site 🌐](https://unsnap.ct.ws)
 
@@ -17,6 +17,53 @@
 - 📸 **Image Viewer** with modal previews and action buttons
 - 🧠 **AI-Ready Backend** (Gemini API or GPT-based tagging can be integrated)
 - 🧩 **Modular Codebase** with separate concerns (auth, display, upload)
+
+---
+
+## 🧑‍💻 How to Use Unsnap
+
+Follow these simple steps to start uploading and managing your images on **Unsnap**:
+
+### 🟢 1. Visit the Website  
+Go to the live site:  
+👉 [https://unsnap.ct.ws](https://unsnap.ct.ws)
+
+### 🔐 2. Sign Up or Log In
+
+- 📨 Use your **email and password** to register or log in.
+- 🔒 Session-based authentication keeps your uploads secure.
+- *(Optional: If Google Login is enabled, use "Login with Google")*
+
+### 📤 3. Upload Images
+
+- Click on the **Upload** button.
+- Choose an image from your device.
+- Add optional **category** or **caption** (if available).
+- Click **Submit** to upload the image.
+- The system will:
+  - Validate file type and size
+  - Create a **thumbnail**
+  - Store the image securely in the backend
+
+### 🖼️ 4. View Uploaded Images
+
+- Go to your **Saved Images** or **Profile** page
+- All your uploaded images will be displayed with:
+  - Thumbnail preview
+  - Category
+  - Upload date
+  - Delete option
+
+### 🗑️ 5. Manage Your Uploads
+
+- Click the 🗑️ (Delete) icon to remove an image from your gallery.
+- You can only delete images that **you uploaded**.
+
+### 🔐 6. Security and Privacy
+
+- All uploads are **user-specific** and **protected by CSRF tokens**
+- Only authenticated users can upload, view, and delete their images
+- Your session will expire after inactivity to enhance security
 
 ---
 
