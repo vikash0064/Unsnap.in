@@ -81,4 +81,30 @@ Go to the live site:
 ---
 
 ## 🧱 Folder Structure
+unsnap/
+├── index.php              # Home page with login/register UI
+├── upload.php             # Handles image upload logic
+├── saved.php              # Displays uploaded images for logged-in user
+├── logout.php             # Destroys session and logs out user
+├── README.md              # Project documentation
+├── LICENSE                # Open-source license (MIT)
+├── .gitignore             # Prevents sensitive files from being pushed
+│
+├── includes/              # PHP includes (logic & backend utilities)
+│   ├── db.php             # Database connection settings
+│   ├── auth.php           # User session & login check
+│   ├── csrf.php           # CSRF token generation/verification
+│   └── functions.php      # Common helper functions (file name clean-up, etc.)
+│
+├── assets/                # All frontend styling & scripts
+│   ├── css/
+│   │   └── style.css      # Tailwind or custom CSS
+│   ├── js/
+│   │   └── script.js      # JS for modal, preview, interactivity
+│   └── images/            # Static images like logos or icons
+│
+├── uploads/               # Uploaded image storage
+│   ├── full/              # Original uploaded images
+│   └── thumbnails/        # Auto-resized thumbnail previews
+
 
